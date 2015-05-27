@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="email-app">
+<head>
+	<link rel="stylesheet" type="text/css" href="email.css">
+	<script type="text/javascript" src="email.js"></script>
+	<title>First Email app</title>
+</head>
+<body>
+		<div class="email" ng-controller="MyController">
+			<table class="table">
+				<tr class="tr" ng-repeat="email in emails">
+					<td>{{email.name}}</td>
+					<td>{{email.age}}</td>
+					<td>{{email.id}}</td>
+				</tr>
+			</table>
+		</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.table{
+	width: 100%;
+	padding:5em;
+	border: 2px solid black;
+}
+
+.tr{
+	width: (100/3)%;
+	margin-left: 5px;
+	border-right:2px dotted black;
+}
+
+.email{
+	padding: 5em;
+	margin:2px;
+}
